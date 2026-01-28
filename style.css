@@ -43,11 +43,14 @@ html, body {
     color: white;
 }
 .navbar-nav li a:hover{
-    color: aqua;
+    color: #64CCC5;
 }
 .btn {
     width: 130px;
     border-radius: 50px;
+}
+.btn:hover{
+  background-color: #64CCC5;
 }
 .image {
     max-width: 100%;
@@ -71,6 +74,20 @@ html, body {
     
 
 }
+
+
+.card:hover{
+  background-color: black;
+  color: white;
+ 
+
+}
+.card h5 p:hover{
+  color: white;
+}
+
+
+
 .about{
     background-color: black;
    min-height: 50vh;
@@ -81,6 +98,15 @@ html, body {
     
 
 
+}
+
+.process-card{
+  background-color: white;
+}
+
+.process-card{
+  height: 250px;
+ 
 }
 
 
