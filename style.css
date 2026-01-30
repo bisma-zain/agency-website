@@ -99,6 +99,23 @@ html, body {
 
 
 }
+.about-sec{
+  background-color: #000;
+  padding: 100px 0px;
+  border-radius: 20px;
+
+}
+.image-mission img{
+  object-fit: contain;
+
+}
+.about-content li a{
+  color: black;
+}
+
+.mission-head-cont{
+  float: right;
+}
 
 .process-card{
   background-color: white;
@@ -108,7 +125,27 @@ html, body {
   height: 250px;
  
 }
+.mission{
+  background-color: #000;
+  padding: 80px 0px;
+}
 
+.talk-content{
+  background-image: url("images/Call\ to\ Action\ 3.png");
+  background-repeat: no-repeat;
+ background-size:cover;
+ background-attachment: fixed;
+ background-position: center;
+ object-fit: cover;
+ border-radius: 30px;
+ 
+ 
+
+}
+
+.fa-brands{
+  font-size: 30px;
+}
 
 
 
@@ -138,6 +175,13 @@ html, body {
   color: #bfbfbf;
   margin-bottom: 8px;
   cursor: pointer;
+}
+
+.footer-links a{
+  text-decoration: none;
+}
+.footer-links a li:hover{
+  color: #64CCC5;
 }
 
 .footer-links li:hover {
@@ -187,3 +231,48 @@ html, body {
     border-radius: 20px;
        padding: 80px 0;
 }
+
+
+.map-box{
+  width: 100%;
+  height: 400px; 
+}
+
+.map-box iframe{
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+    .contact-box {
+      background: #f7f7f7;
+      border-radius: 16px;
+      padding: 40px;
+      max-width: 900px;
+      margin: 80px auto;
+    }
+
+    .form-control {
+      border: none;
+      border-bottom: 1px solid #ddd;
+      border-radius: 0;
+      background: transparent;
+      padding-left: 0;
+    }
+
+    .form-control:focus {
+      box-shadow: none;
+      border-bottom-color: #000;
+    }
+
+    .submit-btn {
+      background: #111;
+      color: #fff;
+      border-radius: 30px;
+      padding: 10px 28px;
+      border: none;
+    }
+
+    .submit-btn:hover {
+      background: #000;
+    }
